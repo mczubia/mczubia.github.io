@@ -1,31 +1,71 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.google.com/specimen/Slabo+27px');
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
   font-size: 16px;
-  ____________  /* Declare the base font-family */
+  font-family: slabo 27px;
+    background-color: #7e9bac;
+    color: #fffdee; 
+
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header {}
-header h1 {}
-header img {}
+header {
+    color: #fecfc9;
+    font-family: roboto slab;
+    font-size: 75px;
+    background-color: #7e9bac;
+    text-align: center;
+    }
+
+ h1 {color: #fecfc9;
+    font-family: roboto slab;
+    font-size: 25px;
+    background-color: #7e9bac;
+    text-align: center;}
+
+}
+
 header .subheading {}
 
-nav {}
-nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
+nav {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7e9bac;
+    
+}
+nav button {
+}
 
-main {}
+
+nav ul li {list-style-type: none;
+      float: left;}
+
+nav ul li a {display: block;
+    color: #fffdee;
+    font-family:roboto slab;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li.active a {color: #fffdee;
+        background-color: #F1F7EE;}
+
+nav ul li a:hover {color: #fecfc9;
+        background-color: #F1F7EE; }
+
+
+main {max-width: 960px;
+        margin: 0 auto;
+         padding: 10px;
+         }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { }
