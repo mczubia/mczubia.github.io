@@ -39,10 +39,12 @@ header .subheading {}
 h2, h3 {text-align: center;}
 
 nav {
+    
     margin:0;
     padding: 0px;
-    background-color: #7e9bac;
+    background-color: #fecfc9;
     text-align: center;
+    
 }
 
 nav button {
@@ -66,18 +68,30 @@ nav ul li.active a {color: #fffdee;
 nav ul li a:hover {color: #fecfc9;
         background-color: #F1F7EE; }
 
+.weather-summary, .fashion-news, .article {
+    border: 5px solid #fecfc9;
+    padding: 1em;
+    margin: 15px;
+}
+#sunny{
+    padding: 1em;
+}
+.article{   
+max-width: 100%}
+
 .forecast {display: none;}
 
-main {max-width: 960px;
+main {max-width: 100%;
         margin: 0 auto;
          padding: 10px;
          }
 main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure { margin: 0 0 .2rem 2%; width:100%; }
 main figure img { }
 
 footer {
     font-family: roboto slab;
     color: #fffdee;
+    font-size: 14px;
     background-color: ##F1F7EE;
     text-align: center;}

@@ -5,23 +5,33 @@
     nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
     
     section.forecast {display:block;
-    margin: auto;}
+        max-width: 98%;
+    margin: auto;
+    border: 5px solid #fecfc9;}
 
     .forecast th {
-        padding: 1em;
+        padding: .5em;
+        background-color: #fecfc9;
+        text-align: center;
+        border: 1px solid #fffdee;
     }
     .forecast td{
         padding: 1em;
-        background-color: #fecfc9;
+        background-color: #7e9bac;
         text-align: center;
+        border: 1px solid #fffdee;
+        
     }
     
     .forecast table{
-        padding: 15px;
-        border: 3px solid white;
+        padding: 10px;
+      
+        
         margin:auto;
     }
     
+    .article{   
+max-width: 100%}
     
     
   }
