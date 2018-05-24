@@ -1,4 +1,13 @@
-@media only screen and (min-width: _____ ) {
+@media only screen and (min-width: 1024px ) {
+
+.fashionnews {}
+    
+    nav button { display:none; }
+    
+    .weather-summary {max-width: 50%;}
+    
+    .fashionnews {max-width: 50%;
+    flex: left; }
+  }
     
   
-  }

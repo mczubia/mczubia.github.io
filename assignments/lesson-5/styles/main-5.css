@@ -11,7 +11,7 @@ body {
 
 }
 
-header, nav, main, footer { max-width: 960px;
+header, nav, main, footer { max-width: 100%;
         margin: 0 auto;
          padding: 10px;
 }
@@ -32,27 +32,31 @@ header {
 
 }
 
+h2, h3 {text-align: center;}
+
 header .subheading {}
 
-nav {list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+h2, h3 {text-align: center;}
+
+nav {
+    margin:0;
+    padding: 0px;
     background-color: #7e9bac;
-    
+    text-align: center;
 }
+
 nav button {
 }
 
 
-nav ul li {list-style-type: none;
-      float: left;}
+nav li {list-style-type: none;
+    
+      display: inline;}
 
-nav ul li a {display: block;
+nav a {display: inline-block;
     color: #fffdee;
     font-family: roboto slab;
-    text-align: center;
-    padding: 14px 16px;
+        padding: 10px;
     text-decoration: none;
 }
 
@@ -62,6 +66,7 @@ nav ul li.active a {color: #fffdee;
 nav ul li a:hover {color: #fecfc9;
         background-color: #F1F7EE; }
 
+.forecast {display: none;}
 
 main {max-width: 960px;
         margin: 0 auto;
