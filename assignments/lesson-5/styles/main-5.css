@@ -69,7 +69,7 @@ nav ul li a:hover {color: #fecfc9;
         background-color: #F1F7EE; }
 
 .weather-summary, .fashion-news, .article {
-    border: 5px solid #fecfc9;
+    border: 5.1px solid #fecfc9;
     padding: 1em;
     margin: 15px;
 }
