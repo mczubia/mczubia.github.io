@@ -4,10 +4,13 @@
     
     nav button { display:none; }
     
-    .weather-summary {max-width: 50%;}
+    .weather-summary, .fashion-news {max-width: 48%;}
     
-    .fashion-news {max-width: 50%;
-     }
-  }
+   .sidebyside{
+	display:flex;
+}
+    
+}
+  
     
   
