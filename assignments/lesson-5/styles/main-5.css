@@ -5,7 +5,7 @@
 
 body {
   font-size: 16px;
-  font-family: slabo 27px;
+  font-family: slabo 27px, Arial, serif;
     background-color: #7e9bac;
     color: #fffdee; 
 
@@ -18,14 +18,14 @@ header, nav, main, footer { max-width: 100%;
 
 header {
     color: #fecfc9;
-    font-family: roboto slab;
+    font-family: roboto slab, Arial, serif;
     font-size: 75px;
     background-color: #7e9bac;
     text-align: center;
     }
 
  h1 {color: #fecfc9;
-    font-family: roboto slab;
+    font-family: roboto slab, Arial, serif;
     font-size: 25px;
     background-color: #7e9bac;
     text-align: center;}
@@ -57,7 +57,7 @@ nav li {list-style-type: none;
 
 nav a {display: inline-block;
     color: #fffdee;
-    font-family: roboto slab;
+    font-family: roboto slab, Arial, serif;
         padding: 10px;
     text-decoration: none;
 }
@@ -97,7 +97,7 @@ main figure { margin: 0 0 .2rem 2%; width:100%; }
 main figure img { }
 
 footer {
-    font-family: roboto slab;
+    font-family: roboto slab, Arial, serif;
     color: #fffdee;
     font-size: 14px;
     background-color: ##F1F7EE;
