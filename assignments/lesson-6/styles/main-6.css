@@ -73,6 +73,9 @@ nav ul li a:hover {color: #fecfc9;
     padding: 1em;
     margin: 15px;
 }
+figure.headerphoto {
+    margin: 0;
+}
 figure.headerphoto img {
     width: 100%;
     height: auto;
