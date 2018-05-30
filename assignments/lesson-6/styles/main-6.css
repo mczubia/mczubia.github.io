@@ -48,6 +48,12 @@ nav {
 }
 
 nav button {
+    margin: .5em;
+    background-color: #fecfc9;
+   border: 5.1px solid #7e9bac;
+   font-family: 'Roboto', sans-serif;
+    color: #fffdee;
+    
 }
 
 
@@ -107,5 +113,5 @@ footer {
     font-family: 'Roboto', sans-serif;
     color: #fffdee;
     font-size: 14px;
-    background-color: ##F1F7EE;
+  
     text-align: center;}

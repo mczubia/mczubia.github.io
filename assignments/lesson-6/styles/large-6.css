@@ -2,7 +2,7 @@
 
 .fashionnews {}
     
-    nav button { display:none; }
+ button { display:none; }
     
     .weather-summary, .fashion-news {max-width: 48%;}
     
