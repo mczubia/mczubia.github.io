@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.google.com/specimen/Slabo+27px');
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Slabo 27px', serif;
+    background-color: #7e9bac;
+    color: #fffdee; 
+
+}
+
+header, nav, main, footer { max-width: 100%;
+        margin: 0 auto;
+         padding: 10px;
+}
+
+header {
+    color: #fecfc9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    background-color: #7e9bac;
+    text-align: center;
+    }
+
+ h1 {color: #fecfc9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: #7e9bac;
+    text-align: center;}
+
+}
+
+h2, h3, h4 {text-align: center;}
+
+header .subheading {}
+
+h2, h3 {text-align: center;}
+
+nav {
+    
+    margin:0;
+    padding: 0px;
+    background-color: #fecfc9;
+    text-align: center;
+    
+}
+
+nav button {
+}
+
+
+nav li {list-style-type: none;
+    
+      display: inline;}
+
+nav a {display: inline-block;
+    color: #fffdee;
+    font-family: 'Roboto', sans-serif;
+        padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li.active a {color: #fffdee;
+        background-color: #F1F7EE;}
+
+nav ul li a:hover {color: #fecfc9;
+        background-color: #F1F7EE; }
+
+.weather-summary, .fashion-news, .article {
+    border: 5.1px solid #fecfc9;
+    padding: 1em;
+    margin: 15px;
+}
+
+
+#sunny{
+    padding: 1em;
+}
+
+#metereologist {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+.article{   
+max-width: 100%}
+
+.forecast {display: none;}
+
+main {max-width: 100%;
+        margin: 0 auto;
+         padding: 10px;
+         }
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:100%; }
+main figure img { }
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: #fffdee;
+    font-size: 14px;
+    background-color: ##F1F7EE;
+    text-align: center;}

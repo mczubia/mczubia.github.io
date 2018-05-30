@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1024px ) {
+
+.fashionnews {}
+    
+    nav button { display:none; }
+    
+    .weather-summary, .fashion-news {max-width: 48%;}
+    
+   .sidebyside{
+	display:flex;
+}
+    
+}
+  
+    
+  
