@@ -57,14 +57,17 @@ nav button {
     
 }
 
+nav ul {padding: 0;}
 
 nav li {list-style-type: none;
     
-      display: inline;}
+      display: block;
+text-align: center;}
 
 nav a {display: inline-block;
     color: #fffdee;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
         padding: 10px;
     text-decoration: none;
 }
@@ -82,7 +85,7 @@ hover {color: #fecfc9;
 
 nav ul.hide {display: none;}
 
-.weather-summary, .fashion-news, .article {
+.weather-summary, .fashion-news, .sidearticle {
     border: 5.1px solid #fecfc9;
     padding: 1em;
     margin: 15px;
@@ -96,8 +99,19 @@ figure.headerphoto img {
     margin: 0;
 }
 
-#sunny{
-    padding: 1em;
+.current {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+#umbrella{
+    padding: .5em;
+}
+
+.town-article {
+    margin: 2px;
+    padding: 2em;
 }
 
 #metereologist {display: block;

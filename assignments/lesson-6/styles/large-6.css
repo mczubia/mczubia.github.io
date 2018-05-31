@@ -5,13 +5,20 @@
 nav ul.hide{display:block}
  button { display:none; }
 
+  
+    .weather-summary, .fashion-news {width: 48%;}
     
-    .weather-summary, .fashion-news {max-width: 48%;}
+  {display: flex;}
+    
     
    .sidebyside{
 	display:flex;
 }
+
+    .sidearticle {
+        display: flex;
     
+    }
 }
   
     
