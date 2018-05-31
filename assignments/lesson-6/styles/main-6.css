@@ -48,10 +48,11 @@ nav {
 }
 
 nav button {
-    margin: .5em;
     background-color: #fecfc9;
-   border: 5.1px solid #7e9bac;
+    margin: .5em;
+   border: 5.1px solid transparent;
    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
     color: #fffdee;
     
 }
@@ -71,8 +72,15 @@ nav a {display: inline-block;
 nav ul li.active a {color: #fffdee;
         background-color: #F1F7EE;}
 
-nav ul li a:hover {color: #fecfc9;
-        background-color: #F1F7EE; }
+nav ul li a:
+
+hover {color: #fecfc9;
+        background-color: #F1F7EE;
+        }
+        
+
+
+nav ul.hide {display: none;}
 
 .weather-summary, .fashion-news, .article {
     border: 5.1px solid #fecfc9;
