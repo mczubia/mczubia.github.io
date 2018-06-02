@@ -107,6 +107,7 @@ figure.headerphoto img {
 
 #umbrella{
     padding: .5em;
+    margin: auto;
 }
 
 .town-article {
@@ -118,10 +119,18 @@ figure.headerphoto img {
     margin-left: auto;
     margin-right: auto;}
 
+#umbrella {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+
 .article{   
 max-width: 100%}
 
 .forecast {display: none;}
+
+
 
 main {max-width: 100%;
         margin: 0 auto;
