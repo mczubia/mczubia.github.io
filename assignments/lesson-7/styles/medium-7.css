@@ -1,0 +1,48 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+
+    
+    
+    
+    nav li {display: inline-flex;}
+    nav ul.hide{display:block}
+    
+    button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    section.forecast {display:flex;
+        max-width: 98%;
+    margin: auto;
+    border: 5.1px solid #fecfc9;
+    overflow: scroll;}
+
+    .forecast th {
+        padding: .5em;
+        background-color: #fecfc9;
+        text-align: center;
+        border: 1px solid #fffdee;
+    }
+    .forecast td{
+        padding: 1em;
+        background-color: #7e9bac;
+        text-align: center;
+        border: 1px solid #fffdee;
+        
+    }
+    
+    .forecast table{
+        padding: 10px;
+      
+        
+        margin:auto;
+    }
+    
+
+    
+    .article{   
+max-width: 100%}
+    
+    
+  }
+
+

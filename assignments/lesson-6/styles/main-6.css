@@ -75,12 +75,9 @@ nav a {display: inline-block;
 nav ul li.active a {color: #fffdee;
         background-color: #F1F7EE;}
 
-nav ul li a:
+nav ul li a:hover {color: #fecfc9;
+        background-color: #F1F7EE; }
 
-hover {color: #fecfc9;
-        background-color: #F1F7EE;
-        }
-        
 
 
 nav ul.hide {display: none;}
