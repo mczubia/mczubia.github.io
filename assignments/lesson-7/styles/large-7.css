@@ -1,6 +1,8 @@
 @media only screen and (min-width: 1024px ) {
 
-.fashionnews {}
+    
+    
+
 
 nav ul.hide{display:flex;}
  button { display:none; }
@@ -8,16 +10,13 @@ nav ul.hide{display:flex;}
   
     .weather-summary, .fashion-news {width: 48%;}
     
-  {display: flex;}
-    
-  
-    
    .sidebyside{
 	display:flex;
 }
 
-    #redumbrella { display: flex;  
-}
+    #redumbrella {display: flex;
+        flex-wrap: wrap;
+    
   
   
   
