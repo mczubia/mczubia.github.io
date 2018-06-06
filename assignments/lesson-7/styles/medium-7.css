@@ -43,6 +43,11 @@
 max-width: 100%
    }
     
+   /*weather gallery grid*/
+    div.weatherGallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2%;
+    }
     
   }
 

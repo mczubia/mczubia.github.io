@@ -1,22 +1,24 @@
 @media only screen and (min-width: 1024px ) {
 
+
+button { display:none; }
+
+  /*weather gallery grid*/
+    div.weatherGallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    div.weatherGallery figure:hover {
+        box-shadow: 5px 5px 5px #F1F7EE;
+    }
     
     
-
-
-nav ul.hide{display:flex;}
- button { display:none; }
-
-  
-    .weather-summary, .fashion-news {width: 48%;}
+.weather-summary, .fashion-news {
+    width: 48%;}
     
-   .sidebyside{
+.sidebyside{
 	display:flex;
 }
 
-    #redumbrella {display: flex;
-        flex-wrap: wrap;
-    
   
-  
-  
+}
