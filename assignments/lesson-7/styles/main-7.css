@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@import url('https://fonts.google.com/specimen/Slabo+27px');
-
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+{ box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
   font-size: 16px;
@@ -30,7 +27,6 @@ header {
     background-color: #7e9bac;
     text-align: center;}
 
-}
 
 h2, h3, h4 {text-align: center;}
 
@@ -82,7 +78,7 @@ nav ul li a:hover {color: #fecfc9;
         
 nav ul.hide {display: none;}
 
-.weather-summary, .fashion-news, .article {
+.weather-summary, .fashionista, .sidearticle {
     border: 5.1px solid #fecfc9;
     padding: 1em;
     margin: 15px;
@@ -103,15 +99,23 @@ figure.headerphoto img {
 }
 
 
-
 .town-article {
     margin: 2px;
-    padding: 2em;
+    padding: 1em;
 }
 
-#metereologist {display: flex;
+#metereologist {
+    display:flex;
+    padding: o;
+
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+margin-bottom: 2px;}
+
+
+.fashionistatext {
+    margin: 2px;
+    padding: 1em;}
 
 #redumbrella {
     display:flex;
@@ -122,9 +126,6 @@ margin-bottom: 2px;}
 
 
 
-.article{   
-max-width: 100%
-display:flex;}
 
 .forecast {display: none;}
 
@@ -143,7 +144,7 @@ main figure img { }
 div.weatherGallery{
     padding: 0 2%;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(1, 100%);
 }
 
 div.weatherGallery figure{

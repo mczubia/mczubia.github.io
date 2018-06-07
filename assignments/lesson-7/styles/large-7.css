@@ -1,24 +1,38 @@
-@media only screen and (min-width: 1024px ) {
+@media only screen and (min-width: 64em) {
 
-
-button { display:none; }
+    
+    button { display:none; }
 
   /*weather gallery grid*/
-    div.weatherGallery {
-        grid-template-columns: 1fr 1fr 1fr;
+    
+div.weatherGallery {
+        grid-template-columns: repeat(3, 32%);
+        
     }
     
-    div.weatherGallery figure:hover {
+div.weatherGallery figure:hover {
         box-shadow: 5px 5px 5px #F1F7EE;
     }
+
+    
+.weather-summary {width: 32%;}
     
     
-.weather-summary, .fashion-news {
-    width: 48%;}
+.fashionista {width: 64%;}
+    
     
 .sidebyside{
 	display:flex;
 }
 
-  
+.sidearticle {
+        display: flex;
+    
+    }
+    
+.fashionista {
+        display: flex;
+    }
+    
+
 }

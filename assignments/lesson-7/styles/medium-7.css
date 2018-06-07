@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
 
@@ -10,7 +10,10 @@
     
     button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
     
-    section.forecast {display:flex;
+    /*I had display block and the header was centered above the table*/
+    
+    section.forecast {display: flex;
+        flex-direction: column;
         max-width: 98%;
     margin: auto;
     border: 5.1px solid #fecfc9;
@@ -43,9 +46,13 @@
 max-width: 100%
    }
     
+  
+    
+    
+    
    /*weather gallery grid*/
     div.weatherGallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 49%);
         grid-gap: 2%;
     }
     
