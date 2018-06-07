@@ -144,12 +144,11 @@ main figure img { }
 div.weatherGallery{
     padding: 0 2%;
     display: grid;
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: auto;
 }
 
 div.weatherGallery figure{
-    margin: 8px 0;
-    padding: 1em;
+    margin: 2rem 0;
     border: 5.1px solid #fecfc9;
 }
 

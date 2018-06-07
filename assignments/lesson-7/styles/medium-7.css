@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 600px) {
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
 
@@ -14,7 +14,7 @@
     
     section.forecast {display: flex;
         flex-direction: column;
-        max-width: 98%;
+        max-width: 96.5%;
     margin: auto;
     border: 5.1px solid #fecfc9;
     overflow: scroll;}
@@ -47,13 +47,12 @@ max-width: 100%
    }
     
   
-    
-    
+
     
    /*weather gallery grid*/
     div.weatherGallery {
-        grid-template-columns: repeat(2, 49%);
-        grid-gap: 2%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6%;
     }
     
   }

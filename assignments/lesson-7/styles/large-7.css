@@ -1,12 +1,15 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 1024px) {
 
     
     button { display:none; }
 
   /*weather gallery grid*/
     
+section.forecast {
+         max-width: 98%;}
+    
 div.weatherGallery {
-        grid-template-columns: repeat(3, 32%);
+        grid-template-columns: 1fr 1fr 1fr;
         
     }
     
@@ -15,10 +18,10 @@ div.weatherGallery figure:hover {
     }
 
     
-.weather-summary {width: 32%;}
+.weather-summary {max-width: 32%;}
     
     
-.fashionista {width: 64%;}
+.fashionista {max-width: 64%;}
     
     
 .sidebyside{
