@@ -1,4 +1,5 @@
 table {
+  margin: auto;
     font-family: 'Ubuntu', sans-serif;
 text-align: center;
 }
@@ -35,11 +36,9 @@ table #firstrow{
     color: white;
     background-color: #628ca6;
 }
-table #footer {
+table tfoot tr th{
     font-size: 10px;
     background-color: #7fb9c2;}
 
-#date{
-    font-style: italic; 
-}
+
 
