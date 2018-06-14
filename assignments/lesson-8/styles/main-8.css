@@ -267,6 +267,39 @@ form label.top input:required:valid {
 }
 /*end of storm Center-form styling*/
 
+/*severity slide*/
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: .1px; /* Specified height */
+      outline: none; /* Remove outline */
+      }
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 12px; /* Set a specific slider handle width */
+    height: 33px; /* Slider handle height */
+    background: #fecfc9; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 1px; /* Set a specific slider handle width */
+    height: 1px; /* Slider handle height */
+    background: #fecfc9; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+/*end severity slide*/
+
 footer {
     font-family: 'Roboto', sans-serif;
     color: #fffdee;

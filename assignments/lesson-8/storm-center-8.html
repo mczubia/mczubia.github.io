@@ -34,6 +34,7 @@
   </nav>
         <!-- CONTENT HERE -->
      <main>
+
          <h1>Storm Center</h1>
          <form method="get" action="thanks-storm-8.html">
              
@@ -61,8 +62,12 @@
                 <option value="UltimateDoom">Ultimate Doom</option>
                 </select>
             </label>
+        <!--<label><span>Storm Severity (1 to 10):</span><span id="ratingvalue">5</span><input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>-->   
             
-        <label class="top"><span>Storm Severity</span><input type="range" name="points" min="0" max="10"></label>
+            <div class="slidecontainer">
+        <label class="top"><span>Storm Severity</span><input type="range" min="1" max="10" value="5" class="slider" id="myRange"></label>
+                
+                </div>
             
             <label class="top">Storm Region*</label>
             <select name="subject" required>
@@ -103,6 +108,7 @@
 <script src="scripts/currentdate.js"></script>
 <script src="scripts/hamburguer.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/severityslider.js"></script>
 </body>
 </html>
         
