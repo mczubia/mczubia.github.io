@@ -17,7 +17,8 @@
         max-width: 96.5%;
     margin: auto;
     border: 5.1px solid #fecfc9;
-    overflow: scroll;}
+    overflow: scroll;
+    font-size: 20px;}
 
     .forecast th {
         padding: .5em;

@@ -16,20 +16,22 @@ header, nav, main, footer { max-width: 100%;
 header {
     color: #fecfc9;
     font-family: 'Roboto', sans-serif;
-    font-size: 75px;
+    font-size: 90px;
     background-color: #7e9bac;
     text-align: center;
     }
 
  h1 {color: #fecfc9;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     background-color: #7e9bac;
     text-align: center;}
 
 
-h2, h3, h4 {text-align: center;}
+ h3, h4 {text-align: center;
+}
 
+h3 {font-size: 24px;}
 header .subheading {}
 
 h2, h3 {text-align: center;}
@@ -64,6 +66,7 @@ text-align: center;}
 nav a {display: inline-flex;
     color: #fffdee;
     font-family: 'Roboto', sans-serif;
+    font-size: 22px;
     margin: auto;
         padding: 10px;
     text-decoration: none;
@@ -79,6 +82,7 @@ nav ul li a:hover {color: #fecfc9;
 nav ul.hide {display: none;}
 
 .weather-summary, .fashionista, .sidearticle {
+    font-size: 20px;
     border: 5.1px solid #fecfc9;
     padding: 1em;
     margin: 15px;
@@ -95,11 +99,12 @@ figure.headerphoto img {
 .current {
     display: flex;
     align-items: center;
-    font-size: 2em;
+    font-size: 26px;
 }
 
 
 .town-article {
+    font-size: 20px;
     margin: 2px;
     padding: 2em;
 }
@@ -114,6 +119,7 @@ margin-bottom: 2px;}
 
 
 .fashionistatext {
+    font-size: 20px;
     margin: 2px;
     padding: 2em;}
 
@@ -167,6 +173,6 @@ div.weatherGallery figure figcaption{
 footer {
     font-family: 'Roboto', sans-serif;
     color: #fffdee;
-    font-size: 15px;
+    font-size: 18px;
   
     text-align: center;}
