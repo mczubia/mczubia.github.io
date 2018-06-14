@@ -13,7 +13,9 @@
       <link rel="stylesheet" href="styles/large-8.css">
 </head>
     <body>
+        
 <!-- HEADER HERE---slider-bar<type: range   min="0" max="10">-->
+        
 	<header>Rise and Shine! 
   
     <h1>Weather news and fashion advice</h1>
@@ -36,10 +38,10 @@
      <main>
 
          <h1>Storm Center</h1>
-         <form method="get" action="thanks-storm-8.html">
+         <form method="get" enctype="multipart/form-data" name= "storm" action="thank-storm-8.html">
              
             <fieldset>
-            <legend id="name">Applicant Information</legend>
+            <legend class="title">Applicant Information</legend>
             <label class="top">First and Last Name* <input type="text" name="fnameLname" required></label>
             <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" ></label>
             <label class="top">Phone <input type="tel" name="phone" placeholder="1234567890"></label>
@@ -49,7 +51,7 @@
              
              
         <fieldset>
-             <legend id="storm">Storm Info</legend>
+             <legend class="title">Storm Info</legend>
              <label class="top">Date*<input type="date" name="completeDate" required></label>
               <label class="top">Storm Type*<select name="subject" required>
                     <option value="">Please Select &#9662;</option>
@@ -62,10 +64,11 @@
                 <option value="UltimateDoom">Ultimate Doom</option>
                 </select>
             </label>
-        <!--<label><span>Storm Severity (1 to 10):</span><span id="ratingvalue">5</span><input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>-->   
+       
             
             <div class="slidecontainer">
-        <label class="top"><span>Storm Severity</span><input type="range" min="1" max="10" value="5" class="slider" id="myRange"></label>
+                
+        <label class="top"><span>Storm Severity (1-10)</span><br><span id="demo">2</span><input type="range" min="1" max="10" value="5" class="slider" id="myRange"></label>
                 
                 </div>
             
@@ -87,6 +90,8 @@
              
              
              <input type="submit" value="Report the Storm" class="submitButton">
+             
+              <input name="redirect" type="hidden" value="thanks-storm-8.html">
              
              
          </form>

@@ -5,7 +5,13 @@ body {
   font-family: 'Slabo 27px', serif;
     background-color: #7e9bac;
     color: #fffdee; 
+}
 
+.thanks {font-size: 26px;
+  font-family: 'Slabo 27px', serif;
+    background-color: #7e9bac;
+    color: #fffdee;
+    text-align: center
 }
 
 header, nav, main, footer { max-width: 100%;
@@ -171,21 +177,23 @@ div.weatherGallery figure figcaption{
 /*end of gallery */
 
 /*storm Center-form styling*/
+   
 
 form fieldset{
-    margin: 2rem 0;
+    margin: 3rem 0;
     border: 5px solid #fecfc9;
     border-radius: 10px;
-    padding: .5rem 2%
+    padding: .5rem 2%;
 }
 
-form #storm {
-    font-size: 1.2rem;
+form .title {
+    font-size: 2rem;
 }
+
 
 form leggend {
     color: #7e9bac;
-    margin: 0 1rem;
+    margin: 0 rem;
     padding: 0 .5rem;
 }
         
@@ -299,6 +307,7 @@ form label.top input:required:valid {
     cursor: pointer; /* Cursor on hover */
 }
 /*end severity slide*/
+
 
 footer {
     font-family: 'Roboto', sans-serif;
