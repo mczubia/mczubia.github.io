@@ -40,5 +40,9 @@ div.weatherGallery figure:hover {
         display: flex;
     }
     
+/*form styling*/
+     form label.sbs {
+        padding: .4rem 0;
+    }
 
 }
