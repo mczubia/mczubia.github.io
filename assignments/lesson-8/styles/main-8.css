@@ -72,7 +72,7 @@ nav a {display: inline-flex;
     text-decoration: none;
 }
 
-nav ul li.active a {color: #fffdee;
+nav ul li.active a {color: #fecfc9;
         background-color: #F1F7EE;}
 
 nav ul li a:hover {color: #fecfc9;
