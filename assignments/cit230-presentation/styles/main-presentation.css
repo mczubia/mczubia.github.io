@@ -50,9 +50,8 @@
 .text {
   color: rosybrown;
     background-color: lemonchiffon;
-  font-size: 20px;
+  font-size: 30px;
   padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
