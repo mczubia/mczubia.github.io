@@ -3,7 +3,7 @@
 
 
 /* * is a wildcard referring to all elements. */
-{ margin: 0; box-sizing: border-box; } 
+
 
 body { 
     font-size: 16px; 
@@ -26,7 +26,7 @@ h2 {
 header, main, footer {
     margin: 1.25em auto;
     padding: .5em;
-    max-width: ;
+   
 }
 
 header, footer, footer a {
