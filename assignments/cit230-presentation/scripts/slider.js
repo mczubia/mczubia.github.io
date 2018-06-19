@@ -1,9 +1,3 @@
-//$(document).ready(function(){
-    //$( function() {
-    //$( "#accordion" ).accordion();
-//} );
-//});
-
 
 var slideIndex = 1;
 showSlides(slideIndex);

@@ -1,0 +1,61 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+
+    
+    
+    
+    nav li {display: inline-flex;}
+    nav ul.hide{display:block}
+    
+    button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    /*I had display block and the header was centered above the table*/
+    
+    section.forecast {display: flex;
+        flex-direction: column;
+        max-width: 96.5%;
+    margin: auto;
+    border: 5.1px solid #fecfc9;
+    overflow: scroll;
+    font-size: 20px;}
+
+    .forecast th {
+        padding: .5em;
+        background-color: #fecfc9;
+        text-align: center;
+        border: 1px solid #fffdee;
+    }
+    .forecast td{
+        padding: 1em;
+        background-color: #7e9bac;
+        text-align: center;
+        border: 1px solid #fffdee;
+        
+    }
+    
+    .forecast table{
+        padding: 10px;
+      
+        
+        margin:auto;
+    }
+    
+
+    
+    .article{   
+max-width: 100%
+   }
+    
+  
+
+    
+   /*weather gallery grid*/
+    div.weatherGallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6%;
+    }
+    
+  }
+
+
