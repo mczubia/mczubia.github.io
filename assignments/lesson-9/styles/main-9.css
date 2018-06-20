@@ -310,17 +310,25 @@ form label.top input:required:valid {
 /*end severity slide*/
 
 /*index page*/
-section.cityfacts {
+
+section.townInfo article {
+    border: 5px solid #fecfc9;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    font-size: 18px;
+}
+section.townInfo h2 { color:#fecfc9;
+    
+}
+section.townInfo {
 	padding: 0 2%;
     display: grid;
-    list-style-type: none;
-  	grid-template-columns: auto;
+    grid-template-columns: auto;
 }
 
-section.cityfacts ul {
+section.townInfo ul {
     list-style-type: none;
     text-align: left;
-    font-weight: 700;
 }
 
 /*end index page*/
@@ -333,3 +341,4 @@ footer {
     font-size: 18px;
   
     text-align: center;}
+

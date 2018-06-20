@@ -1,48 +1,51 @@
-    
-    var section = document.querySelector('section');
-    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
-        var request = new XMLHttpRequest();
-        request.open('GET', requestURL);
-        request.responseType = 'json';
-request.send();
-
-        request.onload = function() {
-  var superHeroes = request.response;
-  populateHeader(superHeroes);
-  showHeroes(superHeroes);
-}
-    
-
- 
-        function showHeroes(jsonObj) {
-  var heroes = jsonObj['members'];
-      
-  for (var i = 0; i < heroes.length; i++) {
-    var myArticle = document.createElement('article');
-    var myH2 = document.createElement('h2');
-    var myPara1 = document.createElement('p');
-    var myPara2 = document.createElement('p');
-    var myPara3 = document.createElement('p');
-    var myList = document.createElement('ul');
-
-    myH2.textContent = heroes[i].name;
-    myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-    myPara2.textContent = 'Age: ' + heroes[i].age;
-    myPara3.textContent = 'Superpowers:';
+var section = document.querySelector('section');
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
         
-    var superPowers = heroes[i].powers;
-    for (var j = 0; j < superPowers.length; j++) {
-      var listItem = document.createElement('li');
-      listItem.textContent = superPowers[j];
-      myList.appendChild(listItem);
-    }
+    request.onload = function() {
+    var townInfo = request.response;
+    showData(townInfo);
+        }
+        
+    function showData(jsonObj) {
+        var cities = jsonObj['towns'];
+        for (var i = 0; i < cities.length; i++) {
+            
+
+    var myArticle = document.createElement('article');
+            var myH2 = document.createElement('h2');
+            var myH3 = document.createElement('h3');
+            var myPara1 = document.createElement('p');
+            var myPara2 = document.createElement('p');
+            var myPara3 = document.createElement('p');
+            var myPara4 = document.createElement('p');
+            var myList = document.createElement('ul');
+
+            myH2.textContent = cities[i].name;
+            myH3.textContent = 'Motto: ' + cities[i].motto;
+            myPara1.textContent = 'Year Founded: ' + cities[i].yearFounded;
+            myPara2.textContent = 'Population: ' + cities[i].currentPopulation;
+            myPara3.textContent = 'Average Rainfall: ' + cities[i].averageRainfall;
+            myPara4.textContent = 'Upcoming Events: ';
+
+            var cityEvents = cities[i].events;
+            for (var j = 0; j < cityEvents.length; j++) {
+              var listItem = document.createElement('li');
+              listItem.textContent = cityEvents[j];
+              myList.appendChild(listItem);
+            }
 
     myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-    myArticle.appendChild(myList);
+            myArticle.appendChild(myH3);
+            myArticle.appendChild(myPara1);
+            myArticle.appendChild(myPara2);
+            myArticle.appendChild(myPara3);
+            myArticle.appendChild(myPara4);
+            myArticle.appendChild(myList);
 
-    section.appendChild(myArticle);
+            section.appendChild(myArticle);
   }
 }
