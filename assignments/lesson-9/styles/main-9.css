@@ -7,6 +7,7 @@ body {
     color: #fffdee; 
 }
 
+
 .thanks {font-size: 26px;
   font-family: 'Slabo 27px', serif;
     background-color: #7e9bac;
@@ -308,7 +309,24 @@ form label.top input:required:valid {
 }
 /*end severity slide*/
 
+/*index page*/
+section.cityfacts {
+	padding: 0 2%;
+    display: grid;
+    list-style-type: none;
+  	grid-template-columns: auto;
+}
 
+section.cityfacts ul {
+    list-style-type: none;
+    text-align: left;
+    font-weight: 700;
+}
+
+/*end index page*/
+
+
+/*footer*/
 footer {
     font-family: 'Roboto', sans-serif;
     color: #fffdee;
