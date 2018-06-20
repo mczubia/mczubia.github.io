@@ -39,7 +39,7 @@ weatherObject.onload= function() {
     
     var iconcode= weatherInfo.weather[0].icon;
     
-    var icon_path= "http://openweathermap.org/img/w/"+ iconcode +".png";
+    var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
     document.getElementById('weather_icon').src= icon_path;
 }
 //end of the function
