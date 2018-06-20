@@ -9,22 +9,22 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto%7CSlabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main-9.css">
+
     <link rel="stylesheet" href="styles/medium-9.css">
-      <link rel="stylesheet" href="styles/large-9.css">
+    <link rel="stylesheet" href="styles/large-9.css">
+    
 </head>
-    <body>
+<body>
 
-	<header>Rise and Shine! 
-  
+<header> Rise and Shine! 
+  </header>
     <h1>Weather news and fashion advice</h1>
-
+   
         
-    </header>
-        <!-- NAVIGATION HERE -->
-      <nav class= "clearfix">
+  <nav class= "clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
-    	<li><a href="index.html">Home</a></li>
+    	<li class="active"><a href="index.html">Home</a></li>
     	<li><a href="franklin-9.html">Franklin</a></li>
     	<li><a href="#">Greenville</a></li>
     	<li><a href="#">Springfield</a></li>
@@ -32,21 +32,20 @@
     	<li><a href="gallery-9.html">Gallery</a></li>
     </ul>		
   </nav>
-        
-        
-        <main>
-    <h1>Storm Center</h1>
-            <div class="thanks">
-        <p>Thanks for letting us know about the weather conditions in your area! We will dispatch someone real soon!</p>
-</div>
-          
-        
+    <main>
+    
+    <div id="franklin">
+    <h1>Forecast</h1>
+        <h2>Weather conditions for: <span id="place">city</span></h2>
+        <p>Current temperature is <span id="currentTemp">00</span>&deg;</p>
+        <p>Wind Speed is <span id="currentWind">00</span> mph</p>
+        <img src="images/placeholder.png" alt="current weather" id="weather_icon">
+    </div>
+    
+    
     </main>
-        
-
-
-<!-- FOOTER HERE -->  
-        <footer>
+    
+    <footer>
     <p class="contact">
       Rise and Shine! <br>
     123 West Sunnyside Rd <br>
@@ -60,11 +59,6 @@
     
 <script src="scripts/currentdate.js"></script>
 <script src="scripts/hamburguer.js"></script>
-<script src="scripts/windchill.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
-</html>
-        
-        
-        
-        
-        
+    </html>
