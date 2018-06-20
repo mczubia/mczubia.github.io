@@ -10,7 +10,7 @@ weatherRequest.onload= function() {
 }*/
 
 var weatherObject= new XMLHttpRequest
-weatherObject.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4156210&appid=4f59fd300aa5f89148c3195a3f920e62&units=imperial',true);
+weatherObject.open('GET', '//api.openweathermap.org/data/2.5/weather?id=4156210&appid=4f59fd300aa5f89148c3195a3f920e62&units=imperial',true);
 
 
 //4623560
