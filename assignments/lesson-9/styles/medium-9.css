@@ -50,14 +50,14 @@ max-width: 100%
   
 /*index week9*/
 section.townInfo {
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2%;
 }
 
     
    /*weather gallery grid*/
     div.weatherGallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 6%;
     }
     
