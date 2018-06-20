@@ -6,6 +6,13 @@
     
     button { display:none; }
 
+    /*index week9*/
+section.townInfo {
+ grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2%;
+}
+    
+    
   /*weather gallery grid*/
     
 section.forecast {
@@ -47,8 +54,3 @@ div.weatherGallery figure:hover {
 
 }
 
-/*index week9*/
-section.townInfo {
- grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 2%;
-}

@@ -309,6 +309,16 @@ form label.top input:required:valid {
 }
 /*end severity slide*/
 
+
+
+
+/*footer*/
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: #fffdee;
+    font-size: 18px;
+  
+    text-align: center;}
 /*index page*/
 
 section.townInfo article {
@@ -332,13 +342,4 @@ section.townInfo ul {
 }
 
 /*end index page*/
-
-
-/*footer*/
-footer {
-    font-family: 'Roboto', sans-serif;
-    color: #fffdee;
-    font-size: 18px;
-  
-    text-align: center;}
 
