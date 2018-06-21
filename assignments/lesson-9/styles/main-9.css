@@ -9,6 +9,23 @@ body {
 
 #nope { display: none;}
 
+#forecast {
+    
+    font-size: 30px;
+}
+
+#place {
+    color: #fecfc9;
+    font-size: 34px;
+}
+
+#weatherDesc, #highTemp, #lowTemp, #currentTemp, #currentWind {
+    color: #fecfc9;
+    font-size: 24px;
+    font-weight:bold;
+    
+}
+
 
 .thanks {font-size: 26px;
   font-family: 'Slabo 27px', serif;
