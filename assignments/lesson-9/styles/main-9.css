@@ -7,6 +7,8 @@ body {
     color: #fffdee; 
 }
 
+#nope { display: none;}
+
 
 .thanks {font-size: 26px;
   font-family: 'Slabo 27px', serif;
