@@ -94,14 +94,30 @@ nav ul.hide {display: none;}
     padding: 1em;
     margin: 15px;
 }
+
+
+
+
+
+
+
+
+/*icon franklin page */
+img#weather_icon {
+    width: 100px;
+}
+
 figure.headerphoto {
     margin: 0;
 }
+
 figure.headerphoto img {
     width: 100%;
     height: auto;
     margin: 0;
 }
+
+
 
 .current {
     display: flex;
@@ -321,6 +337,19 @@ footer {
     text-align: center;}
 /*index page*/
 
+figure.indexphoto {
+    margin: auto;
+    padding: 2px;
+    width: 95%;
+}
+
+figure.indexphoto img {
+    width: 100%;
+    margin: auto;
+    border: 5px solid #fecfc9;
+}
+
+
 section.townInfo article {
     border: 5px solid #fecfc9;
     margin: 5px 0 5px 0;
@@ -341,5 +370,28 @@ section.townInfo ul {
     text-align: left;
 }
 
+div.indexGallery{
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div.indexGallery figure{
+    margin: 2rem 0;
+    border: 5.1px solid #fecfc9;
+}
+
+div.indexGallery figure img{
+    width: 100%;
+}
+
+div.indexGallery figure figcaption{
+    text-align: center;
+    font-size: 20px;
+    margin: 6px;
+}
+
 /*end index page*/
+
+
 

@@ -12,7 +12,11 @@ var request = new XMLHttpRequest();
         
     function showData(jsonObj) {
         var cities = jsonObj['towns'];
+        
+      // delete cities.towns[2];
+        
         for (var i = 0; i < cities.length; i++) {
+           if(i == 2) continue ; 
             
 
     var myArticle = document.createElement('article');
