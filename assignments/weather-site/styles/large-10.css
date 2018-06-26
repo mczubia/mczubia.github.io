@@ -5,7 +5,11 @@
         max-width: 1500px;}
     
     button { display:none; }
-
+ 
+    #logo {
+       width: 220px;
+     
+}
     /*index week9*/
 section.townInfo {
  grid-template-columns: 1fr 1fr 1fr;

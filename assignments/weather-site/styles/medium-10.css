@@ -3,7 +3,10 @@
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
 
     
-    
+    #logo {
+       width: 160px;
+     
+}
     
     nav li {display: inline-flex;}
     nav ul.hide{display:block}
