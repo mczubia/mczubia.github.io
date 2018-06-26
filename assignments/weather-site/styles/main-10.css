@@ -7,7 +7,7 @@ body {
     color: #fffdee; 
 }
 
-#nope { display: none;}
+.nope { display: none;}
 
 #logo {
        width: 110px;

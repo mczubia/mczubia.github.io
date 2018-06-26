@@ -7,8 +7,9 @@ body {
     color: #fffdee; 
 }
 
-#nope { display: none;}
+.nope { display: none;}
 
+#nope { display: none;}
 #forecast {
     
     font-size: 30px;
