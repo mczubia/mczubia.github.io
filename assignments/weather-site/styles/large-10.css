@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1024px) {
+ 
+    body{
+        margin: auto;
+        max-width: 1500px;}
+    
+    button { display:none; }
+
+    /*index week9*/
+section.townInfo {
+ grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2%;
+}
+    
+    
+  /*weather gallery grid*/
+    
+section.forecast {
+         max-width: 98%;}
+    
+div.weatherGallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+div.weatherGallery figure:hover {
+        box-shadow: 5px 5px 5px #F1F7EE;
+    }
+
+    
+.weather-summary {max-width: 32%;}
+    
+    
+.fashionista {max-width: 64%;}
+    
+     
+    
+.sidebyside{
+	display:flex;
+}
+
+.sidearticle {
+        display: flex;
+    
+    }
+    
+.fashionista {
+        display: flex;
+    }
+    
+    
+.fashion-news {
+       width: 60%;
+    }     
+    
+       
+    
+    
+    #fashionshoes, #metereologist{
+        width: 100%;
+    }
+    
+    #festival{
+        width: 90%;
+    }
+    
+    .fashionistatext {
+        width: 40%;
+    }
+    
+    .article-festival {
+       width: 60%;
+    }  
+    .townfestival {
+        width: 40%;
+    }
+    
+/*form styling*/
+     form label.sbs {
+        padding: .4rem 0;
+    }
+
+}
+

@@ -1,0 +1,412 @@
+
+
+body {
+  font-size: 16px;
+  font-family: 'Slabo 27px', serif;
+    background-color: #7e9bac;
+    color: #fffdee; 
+}
+
+#nope { display: none;}
+
+#forecast {
+    
+    font-size: 30px;
+}
+
+#place {
+    color: #fecfc9;
+    font-size: 34px;
+}
+
+#weatherDesc, #highTemp, #lowTemp, #currentTemp, #currentWind {
+    color: #fecfc9;
+    font-size: 24px;
+    font-weight:bold;
+    
+}
+
+
+.thanks {font-size: 26px;
+  font-family: 'Slabo 27px', serif;
+    background-color: #7e9bac;
+    color: #fffdee;
+    text-align: center
+}
+
+header, nav, main, footer { max-width: 100%;
+        margin: 0 auto;
+         padding: 10px;
+}
+
+header {
+    color: #fecfc9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    background-color: #7e9bac;
+    text-align: center;
+    }
+
+ h1 {color: #fecfc9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background-color: #7e9bac;
+    text-align: center;}
+
+
+ h3, h4 {text-align: center;
+}
+
+h3 {font-size: 24px;}
+header .subheading {}
+
+h2, h3 {text-align: center;}
+
+nav {
+    
+    margin:0;
+    padding: 0px;
+    background-color: #fecfc9;
+    text-align: center;
+    
+}
+
+nav button {
+    background-color: #fecfc9;
+    margin: .5em;
+   border: 5.1px solid transparent;
+   font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #fffdee;
+    
+}
+
+nav ul {padding: 0;}
+
+nav li {list-style-type: none;
+    
+      display: flex;
+    flex-flow: row wrap;
+text-align: center;}
+
+nav a {display: inline-flex;
+    color: #fffdee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin: auto;
+        padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li.active a {color: #fecfc9;
+        background-color: #F1F7EE;}
+
+nav ul li a:hover {color: #fecfc9;
+        background-color: #F1F7EE; }
+
+        
+nav ul.hide {display: none;}
+
+.weather-summary, .fashionista, .sidearticle {
+    font-size: 20px;
+    border: 5.1px solid #fecfc9;
+    padding: 1em;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+/*icon franklin page */
+img#weather_icon {
+    width: 100px;
+}
+
+figure.headerphoto {
+    margin: auto;
+ 
+}
+
+figure.headerphoto img {
+    width: 100%;
+    
+    margin: auto;
+}
+
+
+
+.current {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+
+.town-article {
+    font-size: 20px;
+    margin: 2px;
+    padding: 2em;
+}
+
+.townfestival {
+    font-size: 20px;
+    margin: 5px;
+    padding: 1em;
+}
+#metereologist, #fashionshoes, #festival {
+    display:flex;
+    padding: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 2px;}
+
+
+.fashionistatext {
+    font-size: 20px;
+    margin: 2px;
+    padding: 2em;}
+
+#redumbrella, #festival {
+    display:flex;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 2px;}
+
+
+
+
+.forecast {display: none;}
+
+
+
+main {max-width: 100%;
+        margin: 0 auto;
+         padding: 10px;
+         }
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:100%; }
+main figure img { }
+
+/*weather gallery grid*/
+
+div.weatherGallery{
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div.weatherGallery figure{
+    margin: 2rem 0;
+    border: 5.1px solid #fecfc9;
+}
+
+div.weatherGallery figure img{
+    width: 100%;
+}
+
+div.weatherGallery figure figcaption{
+    text-align: center;
+    font-size: 20px;
+    margin: 6px;
+}
+
+/*end of gallery */
+
+/*storm Center-form styling*/
+   
+
+form fieldset{
+    margin: 3rem 0;
+    border: 5px solid #fecfc9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form .title {
+    font-size: 2rem;
+}
+
+
+form leggend {
+    color: #7e9bac;
+    margin: 0;
+    padding: 0 .5rem;
+}
+        
+form label.top, form #name {
+    display: block;
+    padding-top: 1rem;
+    color: #fffdee;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+form label.top, form #danger {
+    display: block;
+    padding-top: 1rem;
+    color: #fffdee;
+    font-size: 1.2rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.2rem;
+    color: #7e9bac;
+    border: solid 2px #fecfc9;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #7e9bac;
+    width: 100%;
+    max-width: 15rem;
+    background-color: #F1F7EE;
+}
+
+form label.top1 input, form label.top1 select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.2rem;
+    color: #7e9bac;
+    border: solid 2px #fecfc9;
+    border-radius: 4px;
+    padding: 4rem;
+    color: #7e9bac;
+    width: 100%;
+    max-width: 10rem;
+    background-color: #F1F7EE;
+}
+form label.top1, form{
+    display: block;
+    padding-top: 1rem;
+    color: #fffdee;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #fffdee;
+    font-size: 1.2rem;
+}
+
+form input.submitButton{
+    border: none;
+    background-color: #fecfc9;
+    color: #7e9bac;
+    font-size: 24px;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+/*end of storm Center-form styling*/
+
+/*severity slide*/
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: .1px; /* Specified height */
+      outline: none; /* Remove outline */
+      }
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 12px; /* Set a specific slider handle width */
+    height: 33px; /* Slider handle height */
+    background: #fecfc9; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 1px; /* Set a specific slider handle width */
+    height: 1px; /* Slider handle height */
+    background: #fecfc9; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+/*end severity slide*/
+
+
+
+
+/*footer*/
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: #fffdee;
+    font-size: 18px;
+  
+    text-align: center;}
+/*index page*/
+
+
+
+
+section.townInfo article {
+    border: 5px solid #fecfc9;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    font-size: 18px;
+}
+section.townInfo h2 { color:#fecfc9;
+    
+}
+section.townInfo {
+	padding: 0 2%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section.townInfo ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+div.indexGallery{
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div.indexGallery figure{
+    margin: 2rem 0;
+    border: 5.1px solid #fecfc9;
+}
+
+div.indexGallery figure img{
+    width: 100%;
+}
+
+div.indexGallery figure figcaption{
+    text-align: center;
+    font-size: 20px;
+    margin: 6px;
+}
+
+/*end index page*/
+
+
+

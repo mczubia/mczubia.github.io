@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rise and Shine! What to wear according to the weather</title>
+    <meta name="author" content="Maria Zubia-CIT 230 BYU-Idaho">
+    <meta name="description" content=" Weather information for the city of Franklin">
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CSlabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-10.css">
+    <link rel="stylesheet" href="styles/medium-10.css">
+      <link rel="stylesheet" href="styles/large-10.css">
+</head>
+    <body>
+        
+<!-- HEADER HERE slider-bar<type: range   min="0" max="10">-->
+        
+	<header>Rise and Shine! 
+  
+    <h1>Weather news and fashion advice</h1>
+
+        
+    </header>
+        <!-- NAVIGATION HERE -->
+      <nav class= "clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin-10.html">Franklin</a></li>
+    	<li><a href="greenville-10.html">Greenville</a></li>
+    	<li><a href="Springfield-10.html">Springfield</a></li>
+    	<li class="active"><a href="storm-center-10.html">Storm Center</a></li>
+    	<li><a href="gallery-10.html">Gallery</a></li>
+    </ul>		
+  </nav>
+        <!-- CONTENT HERE -->
+     <main>
+
+         <h1>Storm Center</h1>
+         <form method="get" enctype="multipart/form-data" name= "storm" action="thank-storm-9.html">
+             
+            <fieldset>
+            <legend class="title">Applicant Information</legend>
+            <label class="top">First and Last Name* <input type="text" name="fnameLname" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" ></label>
+            <label class="top">Phone <input type="tel" name="phone" placeholder="1234567890"></label>
+            <label class="top">Zip Code* <input type="tel" name="zip" placeholder="00000" required></label>
+        </fieldset>
+             
+             
+             
+        <fieldset>
+             <legend class="title">Storm Info</legend>
+             <label class="top">Date*<input type="date" name="completeDate" required></label>
+              <label class="top">Storm Type*<select name="subject" required>
+                    <option value="">Please Select &#9662;</option>
+                <option value="Hail">Hail</option>
+                <option value="Hurricane">Hurricane</option>
+                <option value="Monsoon">Monsoon</option>
+                <option value="Sandstorm">Sand Storm</option>
+                <option value="Thunderstorm">Thunderstorm</option>
+                <option value="Tornado">Tornado</option>
+                <option value="UltimateDoom">Ultimate Doom</option>
+                </select>
+            </label>
+       
+            
+            <div class="slidecontainer">
+                
+        <label class="top"><span>Storm Severity (1-10)</span><br><span id="demo">2</span><input type="range" min="1" max="10" value="5" class="slider" id="myRange"></label>
+                
+                </div>
+            
+            <label class="top">Storm Region*</label>
+            <select name="subject" required>
+            <option value="">Select Region &#9662;</option>
+                <option value="Franklin">Franklin</option>
+                <option value="Greenville">Greenville</option>
+                <option value="Springfield">Springfield</option>
+            </select>
+            
+            <label id="danger">Danger Level</label>
+            <label class="sbs"><input type="radio" name="danger" value="dangerlevel">Yes</label>
+            <label class="sbs"><input type="radio" name="danger" value="dangerlevel">Maybe</label>
+            <label class="sbs"><input type="radio" name="danger" value="dangerlevel">No</label>
+            
+            <label class="top1">Additional Information<input type="text" name="addinfo"></label>
+             </fieldset>
+             
+             
+             <input type="submit" value="Report the Storm" class="submitButton">
+             
+              <input name="redirect" type="hidden" value="thanks-storm-8.html">
+             
+             
+         </form>
+        </main>   
+        
+        <!-- FOOTER HERE -->  
+        <footer>
+    <p class="contact">
+      Rise and Shine! <br>
+    123 West Sunnyside Rd <br>
+        Franklin, MU 83454<br>
+        (895)-SHINING (744 6464)<br>
+        yourturntoshine@riseandshine.com <br>
+    </p>
+    <p class="footer-bar"><br>&copy;2018 | All Rights Reserved | Rise and Shine! | <span id="currentdate"></span>
+    </p>
+  </footer>
+     <h3><a href="https://mczubia.github.io">Assignment Portal</a></h3>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/hamburguer.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/severityslider.js"></script>
+</body>
+</html>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
