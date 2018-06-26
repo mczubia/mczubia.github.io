@@ -16,19 +16,20 @@
 <body>
 
 <header> Rise and Shine! 
-  </header>
     <h1>Weather news and fashion advice</h1>
+  </header>
+    
    
         
   <nav class= "clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
-    <ul id="primaryNav" class="hide">
-    	<li class="active"><a href="index.html">Home</a></li>
-    	<li><a href="franklin-10.html">Franklin</a></li>
-    	<li><a href="greenville-10.html">Greenville</a></li>
-    	<li><a href="Springfield-10.html">Springfield</a></li>
-    	<li><a href="storm-center-10.html">Storm Center</a></li>
-    	<li><a href="gallery-10.html">Gallery</a></li>
+    <ul id="mainmenu" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="Springfield.html">Springfield</a></li>
+    	<li><a href="storm-center.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
     </ul>		
   </nav>
     <main>
@@ -84,4 +85,24 @@
 <script src="scripts/hamburguer.js"></script>
     <script src="scripts/scripts-index.js"></script>
 </body>
+    
+       <script>
+        var urlString, urlArray, pageHREF, menu, i, currentURL;
+        urlString = document.location.href;
+        urlArray = urlString.split('/');
+        pageHREF = urlArray[urlArray.length - 1];
+
+        if (pageHREF !== "") {
+            menu = document.querySelectorAll('ul#mainmenu li a');
+            for (i = 0; i < menu.length; i++) {
+                currentURL = (menu[i].getAttribute('href'));
+                menu[i].parentNode.className = '';
+                if (currentURL === pageHREF) {
+                    menu[i].parentNode.className = 'active';
+                }
+            }
+        }
+ </script>
+    
+    
     </html>
