@@ -228,7 +228,11 @@ div.weatherGallery figure figcaption{
 /*end of gallery */
 
 /*storm Center-form styling*/
-   
+.title {
+    margin: auto;
+}
+
+
 
 form fieldset{
     margin: 3rem 0;
@@ -254,11 +258,13 @@ form label.top, form #name {
     color: #fffdee;
     font-size: 1.2rem;
     font-weight: bold;
+    
 }
 
 
 form label.top, form #danger {
     display: block;
+    margin: auto;
     padding-top: 1rem;
     color: #fffdee;
     font-size: 1.2rem;
@@ -324,6 +330,8 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+
 /*end of storm Center-form styling*/
 
 /*severity slide*/
