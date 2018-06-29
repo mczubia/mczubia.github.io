@@ -162,8 +162,8 @@ figure.headerphoto img {
 
 .townfestival {
     font-size: 20px;
-    margin: 5px;
-    padding: 1em;
+    margin: 2px;
+    padding: 2em;
 }
 #metereologist, #fashionshoes, #festival {
     display:flex;
@@ -179,7 +179,7 @@ margin-bottom: 2px;}
     margin: 2px;
     padding: 2em;}
 
-#redumbrella, #festival {
+#redumbrella, #festival, #fashionshoes, #metereologist {
     width: 65vw;
     display:flex;
     padding: 1em;
