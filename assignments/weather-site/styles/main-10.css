@@ -180,8 +180,9 @@ margin-bottom: 2px;}
     padding: 2em;}
 
 #redumbrella, #festival {
+    width: 65vw;
     display:flex;
-    padding: 2em;
+    padding: 1em;
     margin-left: auto;
     margin-right: auto;
 margin-bottom: 2px;}

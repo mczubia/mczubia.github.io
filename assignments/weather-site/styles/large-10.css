@@ -83,6 +83,12 @@ div.weatherGallery figure:hover {
      form label.sbs {
         padding: .4rem 0;
     }
-
+    
+#redumbrella, #festival {
+    width: 35vw;
+   
+    margin: 10px;}
+    
 }
+
 
