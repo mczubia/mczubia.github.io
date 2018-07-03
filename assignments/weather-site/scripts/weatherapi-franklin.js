@@ -1,13 +1,4 @@
-/*var weatherRequest= new XMLHttpRequest
-weatherRequest.open('GET', '//api.openweathermap.org/data/2.5/weather?id=4156210&appid=4f59fd300aa5f89148c3195a3f920e62&units=imperial',true);
 
-weatherRequest.send();
-
-weatherRequest.onload= function() {
-   var weatherData= JSON.parse(weatherRequest.responseText);
-    console.log(weatherData);
-    document.getElementById("current-temp").innerHTML= weatherData.main.temp;
-}*/
 
 var weatherObject= new XMLHttpRequest
 weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?id=4759986&appid=4f59fd300aa5f89148c3195a3f920e62&units=imperial',true);
@@ -41,6 +32,44 @@ weatherObject.onload= function() {
     
     var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
     document.getElementById('weather_icon').src= icon_path;
+    
+    
+    
+    //forecast
+    
+    document.getElementById('dayonetemp').innerHTML= weatherInfo.main.temp;
+    
+     document.getElementById('daytwotemp').innerHTML= weatherInfo.main.temp;
+    
+     document.getElementById('daythreetemp').innerHTML= weatherInfo.main.temp;
+    
+     document.getElementById('dayfourtemp').innerHTML= weatherInfo.main.temp;
+    
+     document.getElementById('dayfivetemp').innerHTML= weatherInfo.main.temp;
+    
+    
+    
+    //icons
+    
+        var iconcode= weatherInfo.weather[0].icon;
+    var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
+    document.getElementById('weather_iconone').src= icon_path;
+    
+     var iconcode= weatherInfo.weather[0].icon;
+    var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
+    document.getElementById('weather_icontwo').src= icon_path;
+    
+     var iconcode= weatherInfo.weather[0].icon;
+    var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
+    document.getElementById('weather_iconthree').src= icon_path;
+    
+     var iconcode= weatherInfo.weather[0].icon;
+    var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
+    document.getElementById('weather_iconfour').src= icon_path;
+    
+     var iconcode= weatherInfo.weather[0].icon;
+    var icon_path= "//openweathermap.org/img/w/"+ iconcode +".png";
+    document.getElementById('weather_iconfive').src= icon_path;
 }
 //end of the function
 

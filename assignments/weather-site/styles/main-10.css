@@ -71,8 +71,8 @@ header .subheading {}
 h2, h3 {text-align: center;}
 
 nav {
-    
-    margin:0;
+    width: 96%;
+    margin:auto;
     padding: 0px;
     background-color: #fecfc9;
     text-align: center;
@@ -135,12 +135,14 @@ img#weather_icon {
 }
 
 figure.headerphoto {
+    width: 96%;
     margin: auto;
- 
+
 }
 
 figure.headerphoto img {
     width: 100%;
+    
     
     margin: auto;
 }
