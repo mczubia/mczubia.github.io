@@ -4,26 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
 	<link rel="stylesheet" href="css/style.css">
-    <!-- <script src="js/jquery-2.2.1.min.js"></script>-->
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-	<script>
-	$(function(){
-		// jQuery Code goes here
-        var nameVal= $('input[name="nameVal"]');
-        
-        function FillEmpty(){
-            if(nameVal.val() == ''){
-                nameVal.val( 'John Doe');
-            }
-        }
-        $('#ReqAQuoteBtn').click( FillEmpty );
-})
-        
-    
-	</script>
+ 
 </head>
 <body>
 <!-- Master Container Div -->
@@ -122,5 +103,26 @@
         <h3><a href="https://mczubia.github.io">Assignment Portal</a></h3>
           
 	</div>
+    
+       <!-- <script src="js/jquery-2.2.1.min.js"></script>-->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script>
+	$(function(){
+		// jQuery Code goes here
+        var nameVal= $('input[name="nameVal"]');
+        
+        function FillEmpty(){
+            if(nameVal.val() == ''){
+                nameVal.val( 'John Doe');
+            }
+        }
+        $('#ReqAQuoteBtn').click( FillEmpty );
+})
+        
+	</script>
+    
 </body>
 </html>
