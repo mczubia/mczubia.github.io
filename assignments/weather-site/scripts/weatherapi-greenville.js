@@ -45,18 +45,41 @@ weatherForecast.onload= function() {
     
    var weatherInfo= JSON.parse(weatherForecast.responseText);
     console.log(weatherInfo);
-    document.getElementById('dayonetemp').innerHTML= weatherInfo.list["0"].main.temp;
+    document.getElementById('dayonetempa1').innerHTML= weatherInfo.list["0"].main.temp;
     
-     document.getElementById('daytwotemp').innerHTML= weatherInfo.list[1].main.temp;
+     document.getElementById('daytwotempb1').innerHTML= weatherInfo.list[1].main.temp;
     
-     document.getElementById('daythreetemp').innerHTML= weatherInfo.list[2].main.temp;
+     document.getElementById('daythreetempc1').innerHTML= weatherInfo.list[2].main.temp;
     
-     document.getElementById('dayfourtemp').innerHTML= weatherInfo.list[3].main.temp;
+     document.getElementById('dayfourtempd1').innerHTML= weatherInfo.list[3].main.temp;
     
-     document.getElementById('dayfivetemp').innerHTML= weatherInfo.list[4].main.temp;
+     document.getElementById('dayfivetempe1').innerHTML= weatherInfo.list[4].main.temp;
     
     
     
+      var weatherInfo= JSON.parse(weatherForecast.responseText);
+    console.log(weatherInfo);
+    document.getElementById('dayonetempa2').innerHTML= weatherInfo.list["0"].main.temp_max;
+    
+     document.getElementById('daytwotempb2').innerHTML= weatherInfo.list[1].main.temp_max;
+    
+     document.getElementById('daythreetempc2').innerHTML= weatherInfo.list[2].main.temp_max;
+    
+     document.getElementById('dayfourtempd2').innerHTML= weatherInfo.list[3].main.temp_max;
+    
+     document.getElementById('dayfivetempe2').innerHTML= weatherInfo.list[4].main.temp_max;
+    
+    
+    
+     document.getElementById('dayonetempa3').innerHTML= weatherInfo.list["0"].main.temp_min;
+    
+     document.getElementById('daytwotempb3').innerHTML= weatherInfo.list[1].main.temp_min;
+    
+     document.getElementById('daythreetempc3').innerHTML= weatherInfo.list[2].main.temp_min;
+    
+     document.getElementById('dayfourtempd3').innerHTML= weatherInfo.list[3].main.temp_min;
+    
+     document.getElementById('dayfivetempe3').innerHTML= weatherInfo.list[4].main.temp_min;
     //icons
     
         var iconcode= weatherInfo.list["0"].weather["0"].icon;
