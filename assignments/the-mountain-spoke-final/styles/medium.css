@@ -1,0 +1,14 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    
+    /* hamburger button does not need to be shown in the medium on up views */
+    nav li {display: inline-flex;}
+    nav ul.hide{display:block}
+    
+    button { display:none; } 
+    
+   
+    
+    
