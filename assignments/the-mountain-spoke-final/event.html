@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke: Events </title>
+    <meta name="author" content="Maria Zubia-CIT 230 BYU-Idaho">
+    <meta name="description" content=" Final website cit 230">
+     <link href="https://fonts.googleapis.com/css?family=Lora%7CPT+Sans+Narrow" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+      <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+    <body>
+         <div class="tituloheader">
+        <header><img id="logo" src="images/final-psd-logo.png" alt="logo">
+            the mountain spoke
+            
+       </header>
+        <h1 class="titulo">an adventure awaits!</h1>
+           </div>  
+        <img class="mainPhoto" src="images/event-banner2.jpg" alt="conctinental divide biking">
+        <nav class="menu">
+               <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="adventure.html">Adventure Tours</a></li>
+    	<li><a href="event.html">Events</a></li>
+    	<li><a href="sales.html">Sales</a></li>
+    	<li><a href="service.html">Services</a></li>
+    	<li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+        </nav>
+        
+        <main>
+        
+            
+            <section >
+        <h6 class="nope"> . </h6>
+        <h2>Annual "Cycle the Continental Divide"</h2>
+            <p class="content3">Every year, the mountain spoke hosts three main tours during the fall.</p>
+            </section>
+        </main>
+        
+        
+        
+        
+        
+        <div class= "centerform">
+         <h1>Registration</h1>
+         <form method="get" enctype="multipart/form-data" name= "storm" action="thank-storm-9.html">
+             
+            <fieldset>
+            <legend class="title">Applicant Information</legend>
+            <label class="top">First and Last Name* <input type="text" name="fnameLname" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" ></label>
+            <label class="top">Phone <input type="tel" name="phone" placeholder="1234567890"></label>
+                <label class="top">Date of Birth*<input type="date" name="completeDate" required></label>
+            <label class="top">State/Country* <input type="text" name="country" required></label>
+                
+                
+                <div class="slidecontainer">
+                
+        <label class="top"><span>Experience Level (1-10)</span><br><span id="demo">2</span><input type="range" min="1" max="10" value="5" class="slider" id="myRange"></label>
+                
+                </div>
+                
+                <label id="danger">Special Accomodations</label>
+            <label class="sbs"><input type="radio" name="danger" value="dangerlevel">Yes</label>
+            
+            <label class="sbs"><input type="radio" name="danger" value="dangerlevel">No</label>
+            
+            <label class="top1">Additional Information<input type="text" name="addinfo"></label>
+                <input type="submit" value="Submit Info" class="submitButton">
+             
+              <input name="redirect" type="hidden" value="thanks-storm-8.html">
+             
+                
+        </fieldset>
+             
+    
+         </form>
+        </div>
+        
+        
+        
+        
+        <footer>
+    <p class="contact">
+      the mountain spoke |
+    3950 Valley Commons Drive |
+        Bozeman, MT 59715<br>
+        (895) BICYCLE (242 9253) |
+        bikeadventure@themountainspoke.com 
+    </p>
+    <p class="footer-bar"><br>&copy;2018 | All Rights Reserved | the mountain spoke | <span id="currentdate"></span>
+    </p>
+            <h3><a href="https://mczubia.github.io">Assignment Portal</a></h3>
+     
+  </footer>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="scripts/currentdate.js"></script> 
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/active.js"></script>
+        <script src="scripts/experienceslider.js"></script>
+    </body>
+</html>

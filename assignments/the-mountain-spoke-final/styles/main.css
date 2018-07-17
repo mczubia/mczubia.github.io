@@ -71,6 +71,7 @@ nav a {display: inline-flex;
     font-size: 22px;
     margin: auto;
         padding: 10px;
+    padding-bottom: 
     text-decoration: none;
 }
 
@@ -121,6 +122,7 @@ h1, h2 {color: #504d38;
     margin-left: auto;
     margin-right: auto;
 margin-bottom: 2px;}
+
 
 .calltoaction{
     width: 92vw;
@@ -285,3 +287,148 @@ div.gallery figure figcaption{
 }
 
 /*end of gallery */
+
+/*event page*/
+
+
+/*end ofevent page*/
+
+form fieldset{
+    width: 92%;
+    margin: auto;
+    border: 5px solid #3f4c57;
+ 
+    padding: .5rem 2%;
+}
+
+form .title {
+    font-size: 2rem;
+}
+
+
+form leggend {
+    color: #3f4c57;
+    margin: 0;
+    padding: 0 .5rem;
+}
+        
+form label.top, form #name {
+    display: block;
+    padding-top: 2rem;
+    color: #504d38;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+
+form label.top, form #danger {
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    color: #d5afbc;
+    font-size: 1.5rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.5rem;
+    color: #504d38;
+    border: solid 2px #3f4c57;
+    
+    padding: .75rem;
+    color: #504d38;
+    width: 100%;
+    max-width: 15rem;
+    background-color: #F1F7EE;
+}
+
+form label.top1 input, form label.top1 select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.5rem;
+    color: #504d38;
+    border: solid 2px #3f4c57;
+  
+    padding: 4rem;
+    color: #3f4c57;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #F1F7EE;
+}
+form label.top1, form{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #d5afbc;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #d5afbc;
+    font-size: 1.5rem;
+}
+
+form input.submitButton{
+    border: none;
+    background-color: #d5afbc;
+    color: #3f4c57;
+    font-size: 24px;
+   
+    padding: .75rem 1.5rem;
+    margin: auto;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+/*end of storm Center-form styling*/
+
+/*severity slide*/
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: .1px; /* Specified height */
+      outline: none; /* Remove outline */
+      }
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 12px; /* Set a specific slider handle width */
+    height: 33px; /* Slider handle height */
+    background: #3f4c57; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 1px; /* Set a specific slider handle width */
+    height: 1px; /* Slider handle height */
+    background: #3f4c57; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+/*end severity slide*/
+
+
+
+
+
