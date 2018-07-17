@@ -12,7 +12,10 @@ body {
  
 
 /*header*/
-
+.tituloheader{
+    width: 92%;
+    margin: auto;
+}
 #logo {
        width: 250px;
      display:block;
@@ -20,26 +23,23 @@ body {
 }
 
 header {
-    width: 96%;
-    color: #d5afbc;
+    width: 92%;
+    color: #504d38;
     font-family: 'Lora', serif;
     font-size: 70px;
     background-color: #85858e;
     text-align: left;
-    margin-left: 15px;
-    padding-left: 15px;
     }
-.titulo {color: #d5afbc;
+.titulo {color: #504d38;
     font-family: 'Lora', serif;
     font-size: 40px;
     background-color: #85858e;
     text-align: left;
- margin-left: 15px;
-    padding-left: 15px;}
+}
 
 /*navigation*/
 nav {
-    width: 98%;
+    width: 92%;
     margin:auto;
     padding: 0px;
     background-color: #3f4c57;
@@ -68,7 +68,7 @@ text-align: left;}
 nav a {display: inline-flex;
     color: #d5afbc;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 19px;
+    font-size: 22px;
     margin: auto;
         padding: 10px;
     text-decoration: none;
@@ -86,19 +86,18 @@ nav ul.hide {display: none;}
 
 
 
-h1, h2 {color: #d5afbc;
+h1, h2 {color: #504d38;
     font-family: 'Lora', serif;
     font-size: 30px;
     background-color: #85858e;
     text-align: center;}
 
-.mainCont {
+.mainCont, .highlights {
     
     margin: auto;
-    width: 98%;
-    
-  
+    width: 92%;
 }
+
 
 .reviews {
     border: solid 3px #3f4c57;
@@ -107,12 +106,16 @@ h1, h2 {color: #d5afbc;
     
 }
 
+.content1{
+    text-align: left;
+    font-size: 24px; 
+}
+
 .content{
     text-align: center;
 }
-
 .mainPhoto {
-  width: 98vw;
+  width: 94vw;
     display:flex;
     padding: 1em;
     margin-left: auto;
@@ -140,6 +143,7 @@ margin-bottom: 2px;}
 
 /* Next & previous buttons */
 .prev, .next {
+    background-color:#3f4c57;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -226,10 +230,10 @@ footer {
     background-color: #3f4c57;
     font-family: 'PT Sans Narrow', sans-serif;
     color: #d5afbc;
-    font-size: 18px;
+    font-size: 20px;
   
     text-align: center;
-width: 98%;
+width: 92%;
 margin:auto;}
 
-
+.highlights {display: none;}

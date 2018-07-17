@@ -10,7 +10,9 @@
     button { display:none; } 
     
     
-   
+   .highlights { display:block;
+    margin: auto;
+    width: 92%;
     
 }
     
