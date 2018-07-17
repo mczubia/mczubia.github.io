@@ -13,6 +13,16 @@
    .highlights { display:block;
     margin: auto;
     width: 92%;
+    }
+       
+      /*weather gallery grid*/
+    div.gallery {
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-gap: 6%;
+    } 
+       
+       
+       
     
 }
     

@@ -1,5 +1,4 @@
-body {
-    font-size: 18px;
+body { font-size: 18px;
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #85858e;
     color:#d5afbc; 
@@ -13,6 +12,7 @@ body {
 
 /*header*/
 .tituloheader{
+    
     width: 92%;
     margin: auto;
 }
@@ -89,7 +89,7 @@ nav ul.hide {display: none;}
 h1, h2 {color: #504d38;
     font-family: 'Lora', serif;
     font-size: 30px;
-    background-color: #85858e;
+ 
     text-align: center;}
 
 .mainCont, .highlights {
@@ -122,7 +122,16 @@ h1, h2 {color: #504d38;
     margin-right: auto;
 margin-bottom: 2px;}
 
-
+.calltoaction{
+    width: 92vw;
+    margin:auto;
+    padding: 5px;
+    border: solid 3px #3f4c57;
+    background-color: #3f4c57;
+}
+.discount{
+    color: #d5afbc;
+}
 
 * {box-sizing:border-box}
 
@@ -219,10 +228,12 @@ margin-bottom: 2px;}
 .button{
     display:block;
     margin: auto;
+    margin-bottom: 10px;
     font-size: 25px;
     color: #3f4c57;
     background-color: #d5afbc;
     font-family: 'PT Sans Narrow', sans-serif;
+    padding: 15px;
 }
 
 /*footer*/
@@ -234,6 +245,43 @@ footer {
   
     text-align: center;
 width: 92%;
-margin:auto;}
+margin:auto;
+padding: 10px;}
 
 .highlights {display: none;}
+
+/*adventure page*/
+.content3{
+    text-align: center;
+    font-size: 24px; 
+}
+
+/*weather gallery grid*/
+
+div.gallery{
+    width: 92%;
+    margin:auto;
+   
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div.gallery figure{
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 5.1px solid #3f4c57;
+}
+
+div.gallery figure img{
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}
+
+div.gallery figure figcaption{
+    text-align: center;
+    font-size: 20px;
+    margin: 6px;
+}
+
+/*end of gallery */
