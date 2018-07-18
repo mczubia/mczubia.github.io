@@ -61,14 +61,14 @@ nav ul {padding: 0;}
 
 nav li {list-style-type: none;
     
-      display: flex;
+      display: block;
     flex-flow: row wrap;
 text-align: left;}
 
 nav a {display: inline-flex;
     color: #d5afbc;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
     margin: auto;
         padding: 10px;
     padding-bottom; 
@@ -135,6 +135,13 @@ margin-bottom: 2px;}
     color: #d5afbc;
 }
 
+.button{
+    width: 200px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
