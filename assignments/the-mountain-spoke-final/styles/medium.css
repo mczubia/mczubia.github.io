@@ -22,7 +22,9 @@
     } 
        
        
-       
+       .arriba{
+    display:flex;
+}
     
 }
     
