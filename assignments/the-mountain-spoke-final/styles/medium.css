@@ -23,6 +23,8 @@
        
        
        .arriba{
+           margin-top: 25px;
+           margin-left: 10px;
     display:flex;
 }
     
