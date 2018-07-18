@@ -449,9 +449,7 @@ form label.top input:required:valid {
 {width: 100vw;
     margin: auto;
 }
-iframe{
-    border-width: 0px;
-}
+
 .contInf{
     width: 51vw;
     margin: auto;
