@@ -463,6 +463,7 @@ form label.top input:required:valid {
 .contacting {
     width: 92vw;
     margin: auto;
+    padding-top: 1rem;
     
 }
 
