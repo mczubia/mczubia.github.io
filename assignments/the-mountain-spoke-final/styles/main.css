@@ -483,9 +483,10 @@ a {
     padding: 0;
 }
     .inner {
-        padding-left: 1em;
+        padding: 1em;
         overflow: hidden;
         display: none;
+        margin:auto;
 }
         a.toggle {
             width: 100%;
@@ -493,7 +494,7 @@ a {
             background: #504d38;
             color: #d5afbc;
             padding: .75em;
-            border-radius: 0.15em;
+            
             transition: background .3s ease;
           }
 
