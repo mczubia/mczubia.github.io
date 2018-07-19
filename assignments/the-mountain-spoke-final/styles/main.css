@@ -428,19 +428,19 @@ form label.top input:required:valid {
 
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
+    -webkit-appearance: none; 
     appearance: none;
-    width: 12px; /* Set a specific slider handle width */
-    height: 33px; /* Slider handle height */
-    background: #3f4c57; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 12px; 
+    height: 33px; 
+    background: #3f4c57; 
+    cursor: pointer; 
 }
 
 .slider::-moz-range-thumb {
-    width: 1px; /* Set a specific slider handle width */
-    height: 1px; /* Slider handle height */
-    background: #3f4c57; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 1px; 
+    height: 1px; 
+    background: #3f4c57; 
+    cursor: pointer; 
 }
 /*end severity slide*/
 
@@ -469,7 +469,7 @@ form label.top input:required:valid {
 /*sales page*/
 
 .salesAC{
-    width:92vw;
+    width:100vw;
     margin: auto;
     display: block;
 }
@@ -487,17 +487,11 @@ a {
         overflow: hidden;
         display: none;
 }
-        &.show {
-          /*display: block;*/
-        }
-   
-  
-  
         a.toggle {
             width: 100%;
             display: block;
-            background: rgba(0,0,0,0.78);
-            color: #fefefe;
+            background: #504d38;
+            color: #d5afbc;
             padding: .75em;
             border-radius: 0.15em;
             transition: background .3s ease;
@@ -510,11 +504,14 @@ a {
     
 }
 
-.salesbike {width: 92vw;
-    display:block;
-    margin:auto;}
-    
-  .liacc {
+
+  .liacc {font-size: 24px;
         margin: .5em 0;
         list-style: none;
 }
+
+.salesbike {display:block;
+    margin:auto;
+    align-content: center;
+width: 92vw;}
+    
