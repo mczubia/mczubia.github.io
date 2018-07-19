@@ -501,7 +501,8 @@ a {
            
 
 .liimg {
-    list-style:none;
+    list-style: none;
+    margin: auto;
     
 }
 
@@ -513,6 +514,7 @@ a {
 
 .salesbike {display:block;
     margin:auto;
+    padding-right: 40px;
     align-content: center;
 width: 92vw;}
     
