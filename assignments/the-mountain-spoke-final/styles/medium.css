@@ -36,6 +36,23 @@
     .salesbike {width: 50vw;
     display:block;
     margin:auto;}
+    
+    
+    
+     /*repairs*/
+
+.repairInfo {
+    width: 50vw;
+    display:block;
+    margin: auto;
+    background-color: #504d38;
+    border: 5px solid #504d38;
+   
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*end repairs*/
 }
     
-    
+   

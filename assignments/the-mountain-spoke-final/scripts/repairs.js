@@ -16,7 +16,7 @@ var request = new XMLHttpRequest();
       for (var i = 0; i < services.length; i++) {
             
 
-    var myArticle = document.createElement('article');
+    var mySection = document.createElement('section');
             var myH2 = document.createElement('h2');
             var myH3 = document.createElement('h3');
             var myPara1 = document.createElement('p');
@@ -36,12 +36,12 @@ var request = new XMLHttpRequest();
               myList.appendChild(listItem);
             }
 
-    myArticle.appendChild(myH2);
-            myArticle.appendChild(myH3);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myList);
+    mySection.appendChild(myH2);
+            mySection.appendChild(myH3);
+            mySection.appendChild(myPara1);
+            mySection.appendChild(myPara2);
+            mySection.appendChild(myList);
 
-            section.appendChild(myArticle);
+            section.appendChild(mySection);
   }
 }
