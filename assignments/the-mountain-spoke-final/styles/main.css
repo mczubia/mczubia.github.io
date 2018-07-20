@@ -99,11 +99,21 @@ h1, h2 {color: #504d38;
  
     text-align: center;}
 
-.mainCont, .highlights {
+.mainCont {
     
     margin: auto;
     width: 92%;
 }
+.didyouknow {
+    background-color: #504d38;
+    margin-top: -2px;
+}
+.highlights {
+width: 100vw;
+padding: 5px;
+margin-top: -1px;}
+
+
 
 
 .reviews {
@@ -139,10 +149,29 @@ margin-bottom: 2px;}
 .calltoaction{
     width: 100vw;
     margin:auto;
-    padding: 5px;
-    border: solid 3px #3f4c57;
-    background-color: #3f4c57;
+    
+    padding: 15px;
+    border: solid 3px #504d38;
+    background-color: #504d38;
 }
+
+
+.calltoaction1{
+    width: 100vw;
+    margin:auto;
+    padding: 5px;
+    border: solid 3px #504d38;
+    background-color: #504d38;
+}
+
+.calltoaction2{
+    width: 100vw;
+    margin:auto;
+    padding: 5px;
+    border: solid 3px #504d38;
+    background-color: #504d38;
+}
+
 .discount{
     color: #d5afbc;
 }
@@ -543,4 +572,6 @@ width: 92vw;}
     
     text-align: left;
 }
+
+
 
