@@ -1,0 +1,46 @@
+{
+  "repairs": [
+    {
+      "package": "The DIY",
+      "slogan": "For the hands-in cyclist",
+      "Price": "Hourly $15 or all day flat rate $70",
+      "includes": [
+        "Use of basic tools",
+        "Space Rental",
+        "Access to Bike manuals"],
+      "hours": [
+        "Friday 9:00am- 7:00pm",
+        "Saturday 9:00am- 9:00pm",
+        "Call for special holiday hours"
+      ]
+    },
+    {
+      "package": "The Basic Ride",
+      "slogan": "Regular Tune-Up",
+      "Price": "$100",
+      "includes": [
+        "Wheel alignment",
+        "Chain inspection",
+        "Basic body cleaning"],
+      "hours": [
+        "Monday-Friday 9:00am- 7:00pm",
+        "Saturday 9:00am- 9:00pm",
+        "Call for special holiday hours"
+      ]
+    },
+    {
+       "package": "The All Included",
+      "slogan": "Bike day spa",
+      "Price": "$175",
+      "includes": [
+        "Body Cleaning",
+        "Wheel and break alignment",
+        "Chain repair"],
+      "hours": [
+        "Friday 9:00am- 7:00pm",
+        "Saturday 9:00am- 9:00pm",
+        "Call for special holiday hours"
+      ]
+    }
+  ]
+}
