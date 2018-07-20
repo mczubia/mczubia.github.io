@@ -3,7 +3,7 @@
     {
       "package": "The DIY",
       "slogan": "For the hands-in cyclist",
-      "Price": "Hourly 15 or all day flat rate 70",
+      "price": "Hourly $15 or all day flat rate $70",
       "includes": [
         "Use of basic tools",
         "Space Rental",
@@ -17,7 +17,7 @@
     {
       "package": "The Basic Ride",
       "slogan": "Regular Tune-Up",
-      "Price": "$100",
+      "price": "$75",
       "includes": [
         "Wheel alignment",
         "Chain inspection",
@@ -31,7 +31,7 @@
     {
        "package": "The All Included",
       "slogan": "Bike day spa",
-      "Price": "$175",
+      "price": "$150",
       "includes": [
         "Body Cleaning",
         "Wheel and break alignment",
