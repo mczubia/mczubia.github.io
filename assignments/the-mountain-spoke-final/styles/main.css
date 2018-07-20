@@ -107,9 +107,11 @@ h1, h2 {color: #504d38;
 
 
 .reviews {
-    border: solid 3px #3f4c57;
+    background-color: #504d38;
+    border: solid 3px #504d38;
     margin: auto;
     width: 98%;
+    
     
 }
 
@@ -119,6 +121,7 @@ h1, h2 {color: #504d38;
 }
 
 .content{
+    padding: 10px;
     text-align: center;
 }
 
