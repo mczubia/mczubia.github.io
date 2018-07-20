@@ -25,7 +25,7 @@ var request = new XMLHttpRequest();
 
             myH2.textContent = services[i].package;
             myH3.textContent = '' + services[i].slogan;
-            myPara1.textContent = 'Prices: ' + services[i].price;
+            myPara1.textContent = 'Cost: ' + services[i].price;
             myPara2.textContent = 'Includes: ';
             ;
             
