@@ -1,5 +1,5 @@
 var section = document.querySelector('section');
-var requestURL = 'https://mczubia.github.io/assignments/json-data/service-data%202.json';
+var requestURL = 'https://mczubia.github.io/assignments/json/servicedata.json';
 var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -7,16 +7,13 @@ var request = new XMLHttpRequest();
         
     request.onload = function() {
     var repairServ = request.response;
-    showData(townInfo);
+    showData(repairServ);
         }
         
     function showData(jsonObj) {
         var services = jsonObj['repairs'];
         
-      // 333333333333333;
-        
-        for (var i = 0; i < cities.length; i++) {
-           if(i == 2) continue ; 
+      for (var i = 0; i < services.length; i++) {
             
 
     var myArticle = document.createElement('article');
@@ -24,8 +21,6 @@ var request = new XMLHttpRequest();
             var myH3 = document.createElement('h3');
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
-            var myPara3 = document.createElement('p');
-            var myPara4 = document.createElement('p');
             var myList = document.createElement('ul');
 
             myH2.textContent = services[i].package;
@@ -45,8 +40,6 @@ var request = new XMLHttpRequest();
             myArticle.appendChild(myH3);
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            myArticle.appendChild(myPara4);
             myArticle.appendChild(myList);
 
             section.appendChild(myArticle);

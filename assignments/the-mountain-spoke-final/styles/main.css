@@ -521,3 +521,25 @@ a {
     align-content: center;
 width: 92vw;}
     
+/*services*/
+section.repairInfo article {
+    background-color: #504d38;
+    border: 5px solid #504d38;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    font-size: 18px;
+}
+section.repairInfo h2 { color:#d5afbc;
+    
+}
+section.repairInfo {
+	padding: 0 2%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section.repairInfo ul {
+    list-style-type: none;
+    text-align: left;
+}
+
