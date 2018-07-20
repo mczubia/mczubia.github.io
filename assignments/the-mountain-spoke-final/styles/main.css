@@ -39,6 +39,7 @@ header {
 
 /*navigation*/
 nav {
+    
     width: 100%;
     margin:auto;
     padding: 0px;
@@ -59,7 +60,8 @@ nav button {
     
 }
 
-nav ul {padding: 10px;
+nav ul {margin-top: -2px;
+    padding: 10px;
 
 }
 
@@ -137,7 +139,7 @@ margin-top: -1px;}
 
 
 .mainPhoto {
-    background-color: #3f4c57;
+    background-color: #504d38;
   width: 100vw;
     display:flex;
     padding: 1em;
@@ -145,6 +147,14 @@ margin-top: -1px;}
     margin-right: auto;
 margin-bottom: 2px;}
 
+.mainPhoto1 {
+    background-color: #3f4c57;
+  width: 100vw;
+    display:flex;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 2px;}
 
 .calltoaction{
     width: 100vw;
@@ -165,6 +175,14 @@ margin-bottom: 2px;}
 }
 
 .calltoaction2{
+    width: 100vw;
+    margin:auto;
+    padding: 5px;
+    border: solid 3px #504d38;
+    background-color: #504d38;
+}
+
+.calltoaction3{
     width: 100vw;
     margin:auto;
     padding: 5px;
@@ -428,7 +446,7 @@ form input.submitButton{
    
     padding: .75rem 1.5rem;
     margin: auto;
-    width: 96%;
+    width: 65vw;
     max-width: 20rem;
 }
 
